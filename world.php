@@ -12,7 +12,7 @@ $stmt = $conn->query("SELECT * FROM countries WHERE name LIKE '%country%'");
 $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
-<?php
+
 <?php 
 if (isset($_GET['context'])) {
  $stmtt = $conn->query("SELECT cities.name AS city,cities.district AS district,cities.population AS population1 FROM cities JOIN countries ON countries.code = cities.country_code WHERE countries.name = '$country'");
