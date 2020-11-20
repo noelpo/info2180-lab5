@@ -45,15 +45,7 @@ button {
 
 
 
-.con-tab,
-.cit-tab {
-  display: flex;
-  padding-top: 15px;
-  font-size: 14px;
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
-}
+
 
 th {
   padding: 5px;
